@@ -2,7 +2,6 @@
 import copy
 import sys
 sys.setrecursionlimit(10**6)
-
 dx = [1, 0, -1, 0]
 dy = [0, 1, 0, -1]
 
@@ -29,7 +28,7 @@ def blindness_dfs(x,y, n, blind_color) :
 n = int(input())
 
 board1 = [list(map(str,list(input()))) for _ in range(n)]
-board2 = copy.deepcopy(board1)
+board2 = [arr[:] for arr in board1]
 
 normal = 0  #평범
 blindness = 0   #색약
