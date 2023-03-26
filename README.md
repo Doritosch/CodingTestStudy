@@ -88,3 +88,11 @@ Baekjoon
     info.sort(key = lambda x : (int(x[3]), int(x[2]), int(x[1])))
     ```
 * 11650 (좌표 정렬하기)
+
+#### 2023-03-26
+---------------
+## **Binary Search**
+* 1920 (수 찾기)
+    ##### 컴프리헨션을 사용해서 결과 값을 바로 넣는 방법도 있다.
+    ```
+    C = [1 if binary_search(array = A, target = input_int, left = 0, right = len(A) - 1) else 0 for input_int in map(int, input().split())]
