@@ -96,3 +96,7 @@ Baekjoon
     ##### 컴프리헨션을 사용해서 결과 값을 바로 넣는 방법도 있다.
     ```
     C = [1 if binary_search(array = A, target = input_int, left = 0, right = len(A) - 1) else 0 for input_int in map(int, input().split())]
+
+#### 2023-03-28
+---------------
+* 2805 (나무 자르기기)
