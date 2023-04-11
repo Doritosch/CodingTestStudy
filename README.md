@@ -7,7 +7,7 @@
 ## since 2023.03.21 ~ <br>
 <br>
 
-지금까지 푼 문제 **26** 개 <br> 
+지금까지 푼 문제 **27** 개 <br> 
 <br>
-* BaekJoon - 21 개
+* BaekJoon - 22 개
 * Programmers - 5 개
